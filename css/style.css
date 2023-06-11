@@ -7,19 +7,20 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 .slider {
   display: block;
   position: relative;
   width: 100%;
-  max-width: 900px;
+  max-width: 1000px;
   margin: 10px;
   background-color: white;
   overflow: hidden;
 }
 .slider__slides {
   width: 100%;
-  padding-top: 66%;
+  padding-top: 60%;
 }
 .slider__slide {
   position: absolute;
